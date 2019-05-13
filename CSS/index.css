@@ -111,6 +111,7 @@ body {
   width: 70%;
   margin: 45px auto;
   display: flex;
+  justify-content: center;
   border: 1px solid #931d25;
   box-shadow: 1px 1px 5px #931d25;
   border-radius: 10px;
@@ -119,7 +120,23 @@ body {
 .section .box {
   padding: 40px;
 }
+.section .box .buttons {
+  display: flex;
+  justify-content: center;
+}
+.section .box button {
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color: #931d25;
+  border-right: 1px solid white;
+  color: #ffffff;
+  cursor: pointer;
+  margin-bottom: 15px;
+  margin-right: 5px;
+}
 .section .box .box-title {
+  display: flex;
+  justify-content: center;
   font-size: 24px;
   padding-bottom: 10px;
   font-weight: bold;
